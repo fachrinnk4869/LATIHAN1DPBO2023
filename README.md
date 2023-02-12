@@ -54,7 +54,6 @@ class Mahasiswa:
   def setFakultas(self, fakultas):
     self.__fakultas = fakultas
 ```
-bisa dilihat dari kode python dari class Mahasiswa yang saya buat 
 Class Crud berisi kode berikut:
 ```python
 class Crud:
@@ -103,12 +102,16 @@ class Crud:
     
 ```
 Pada `Class Mahasiswa` digunakan untuk menyimpan data yang berhubungan dengan mahasiswa lengkap dengan set dan get
+
 Pada `Class Crud` digunakan untuk proses membuat, melihat, mengganti, manghapus data.
+
 `Class Crud`: membuat 2 buah array yang berbeda:
+
 - array list(menyimpan list of class Mahasiswa)
 - array listNim(menyimpan list dari nim)
 
 `Kenapa?` itu dibuat agar library dari python digunakan dengan semestinya misalkan:
+
 di contoh function ganti:
 ```python
 def ganti(self, mhs):
@@ -126,13 +129,19 @@ dibagian pengecekan jika tidak dibuat `aray listNim` pengecekan tidak bisa dilak
 
 ## Alur Program
 ketik `tambah [NIM] [Nama] [Prodi] [Fakultas]` untuk menambah data pada list
+
 ketik `ganti [NIM] [Nama] [Prodi] [Fakultas]` untuk mengganti data pada list
+
 ketik `hapus [NIM]` untuk menghapus data pada list
+
 ketik `tampil` untuk menampilkan data pada list
+
 ketik `exit` untuk keluar dari looping
 
 ## Dokumentasi
 ![](./img/1.png | width=100)
+
 Menambah data pertama
 ![](./img/2.png | width=100)
+
 Menambah data kedua
