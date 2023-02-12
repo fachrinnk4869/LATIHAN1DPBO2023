@@ -139,9 +139,10 @@ ketik `tampil` untuk menampilkan data pada list
 ketik `exit` untuk keluar dari looping
 
 ## Dokumentasi
-![](./img/1.png | width=100)
+![Example](img/1.png)
 
 Menambah data pertama
-![](./img/2.png | width=100)
+
+![Example](img/2.png)
 
 Menambah data kedua
