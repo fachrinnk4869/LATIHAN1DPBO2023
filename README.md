@@ -1,3 +1,9 @@
+## Janjis
+Saya Fachri Najm Noer Kartiman NIM 2106515 mengerjakan soal Latihan 1
+dalam mata kuliah Desain Pemrograman Berorientasi Objek untuk keberkahanNya
+maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan.
+Aamiin.
+
 # Tugas LATIHAN1DPBO2023
 Buatlah program berbasis OOP menggunakan bahasa pemrograman C++, Java, Python, dan PHP yang menampilkan informasi daftar mahasiswa (sekumpulan objek mahasiswa) dan memiliki fitur menambah, mengubah, dan menghapus data. Setiap mahasiswa memiliki data nama, NIM, program studi, fakultas, dan foto profil (khusus bahasa PHP).
 
@@ -8,6 +14,7 @@ Submit link repository pada form berikut: [Form Pengumpulan](https://forms.gle/r
 Desain yang saya buat menggunakan 2 Class:
 * Mahasiswa
 * Crud
+
 Class Mahasiswa berisi kode berikut:
 ```python
 class Mahasiswa:
@@ -47,6 +54,7 @@ class Mahasiswa:
   def setFakultas(self, fakultas):
     self.__fakultas = fakultas
 ```
+bisa dilihat dari kode python dari class Mahasiswa yang saya buat 
 Class Crud berisi kode berikut:
 ```python
 class Crud:
@@ -94,5 +102,37 @@ class Crud:
       )
     
 ```
+Pada `Class Mahasiswa` digunakan untuk menyimpan data yang berhubungan dengan mahasiswa lengkap dengan set dan get
+Pada `Class Crud` digunakan untuk proses membuat, melihat, mengganti, manghapus data.
+`Class Crud`: membuat 2 buah array yang berbeda:
+- array list(menyimpan list of class Mahasiswa)
+- array listNim(menyimpan list dari nim)
+
+`Kenapa?` itu dibuat agar library dari python digunakan dengan semestinya misalkan:
+di contoh function ganti:
+```python
+def ganti(self, mhs):
+    if(mhs.getNim() not in self.__listNim): # pengecekan agar tidak mengganti data yang belum ada
+      print("data yang ingin anda ganti tidak ada")
+      return
+    tunjuk = self.__listNim.index(mhs.getNim())
+    self.__listNim[tunjuk] = mhs.getNim()
+    self.__list[tunjuk].setNim(mhs.getNim())
+    self.__list[tunjuk].setNama(mhs.getNama())
+    self.__list[tunjuk].setProdi(mhs.getProdi())
+    self.__list[tunjuk].setFakultas(mhs.getFakultas())
+```
+dibagian pengecekan jika tidak dibuat `aray listNim` pengecekan tidak bisa dilakukan seperti itu / secara manual
+
 ## Alur Program
+ketik `tambah [NIM] [Nama] [Prodi] [Fakultas]` untuk menambah data pada list
+ketik `ganti [NIM] [Nama] [Prodi] [Fakultas]` untuk mengganti data pada list
+ketik `hapus [NIM]` untuk menghapus data pada list
+ketik `tampil` untuk menampilkan data pada list
+ketik `exit` untuk keluar dari looping
+
 ## Dokumentasi
+![](./img/1.png | width=100)
+Menambah data pertama
+![](./img/2.png | width=100)
+Menambah data kedua
