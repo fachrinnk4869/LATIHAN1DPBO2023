@@ -59,9 +59,10 @@ Pengguna dapat memilih untuk mengetikkan serangkaian perintah berikut pada comma
 Seteleh memilih maka akan dimintai mengetikkan perintah berikutnya sampai mengetik perintah `exit`
 
 ## Dokumentasi
-*Program PHP*
-![Example](img/1.jpeg)
+**Program PHP**
 
-<!-- ![Example](img/2.png) -->
+![PHP program](img/1.jpeg)
 
-<!-- Menambah data kedua -->
+**Program C++**
+
+![C++ program](img/2.jpeg)

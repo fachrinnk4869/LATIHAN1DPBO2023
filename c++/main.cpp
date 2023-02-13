@@ -26,7 +26,7 @@ int main()
       mhs.setFakultas(val);
       arr.tambah(mhs);
     }else if(sign == "ganti"){
-      cout << "Masukkan data yang ingin diganti dengan nim yang sama" << endl;
+      // cout << "Masukkan data yang ingin diganti dengan nim yang sama" << endl;
       Mahasiswa mhs;
       string val;
       cin >> val;
@@ -39,14 +39,14 @@ int main()
       mhs.setFakultas(val);
       arr.ganti(mhs);
     }else if(sign == "hapus"){
-      cout << "Masukkan nim yang ingin daatanya dihapus" << endl;
+      // cout << "Masukkan nim yang ingin daatanya dihapus" << endl;
       Mahasiswa mhs;
       string val;
       cin >> val;
       mhs.setNim(val);
       arr.hapus(mhs);
     }
-    cout << "masukkan perintah: " << endl;
+    cout << "\nmasukkan perintah: " << endl;
     cin >> sign;
   }
   return 0;
