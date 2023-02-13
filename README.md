@@ -65,4 +65,4 @@ Seteleh memilih maka akan dimintai mengetikkan perintah berikutnya sampai menget
 
 **Program C++**
 
-![C++ program](img/2.png)
+![C++ program](img/c++.png)
