@@ -22,6 +22,7 @@ Desain yang saya buat menggunakan 2 Class:
 * **Prodi** -> program studi mahasiswa, `string`
 * **Fakultas** -> Fakultas mahasiswa, `string`
 * **Foto** (khusus bahasa PHP) -> foto random, `string`
+
 _lengkap dengan setter dan getternya_
 
 `Class Crud` memiliki total dua atribut:
@@ -45,20 +46,20 @@ Pengguna akan diminta untuk mengetikkan perintah pada command prompt
 
 Pengguna dapat memilih untuk mengetikkan serangkaian perintah berikut pada command prompt
 
-ketik `tambah [NIM] [Nama] [Prodi] [Fakultas]` untuk menambah data pada list
+- ketik `tambah [NIM] [Nama] [Prodi] [Fakultas]` untuk menambah data pada list
 
-ketik `ganti [NIM] [Nama] [Prodi] [Fakultas]` untuk mengganti data pada list
+- ketik `ganti [NIM] [Nama] [Prodi] [Fakultas]` untuk mengganti data pada list
 
-ketik `hapus [NIM]` untuk menghapus data pada list
+- ketik `hapus [NIM]` untuk menghapus data pada list
 
-ketik `tampil` untuk menampilkan data pada list
+- ketik `tampil` untuk menampilkan data pada list
 
-ketik `exit` untuk keluar dari looping
+- ketik `exit` untuk keluar dari looping
 
 Seteleh memilih maka akan dimintai mengetikkan perintah berikutnya sampai mengetik perintah `exit`
 
 ## Dokumentasi
-* Program PHP *
+*Program PHP*
 ![Example](img/1.jpeg)
 
 <!-- ![Example](img/2.png) -->
