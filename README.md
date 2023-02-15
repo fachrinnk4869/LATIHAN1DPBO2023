@@ -66,3 +66,20 @@ Seteleh memilih maka akan dimintai mengetikkan perintah berikutnya sampai menget
 **Program C++**
 
 ![C++ program](img/c++.png)
+
+### Test Case
+tambah 2106515 fachri ilkom fpmipa
+
+tambah 2106567 najm fisika fpmipa
+
+tambah 2106515 aku biologi fptk
+
+tampil
+
+hapus 2106515
+
+tampil
+
+ganti 2106567 tri ipse fpbs 
+
+tampil
