@@ -61,11 +61,11 @@ Seteleh memilih maka akan dimintai mengetikkan perintah berikutnya sampai menget
 ## Dokumentasi
 **Program PHP**
 
-![PHP program](img/1.jpeg)
+![PHP program](php/1.jpeg)
 
 **Program C++**
 
-![C++ program](img/c++.png)
+![C++ program](c++/c++.png)
 
 ### Test Case
 tambah 2106515 fachri ilkom fpmipa

@@ -25,7 +25,7 @@ public class Main {
         list.tambah(mhs); // Menambahkan objek Mahasiswa ke dalam list pada objek Crud
       }
       else if(sign.equals("ganti")){
-        System.out.println("Masukkan data yang ingin diganti dengan nim yang sama");
+        // System.out.println("Masukkan data yang ingin diganti dengan nim yang sama");
         Mahasiswa mhs = new Mahasiswa(); // Membuat objek Mahasiswa
         String val = sc.next();
         mhs.setNim(val); // Mengisi atribut NIM dari objek Mahasiswa
@@ -37,13 +37,13 @@ public class Main {
         mhs.setFakultas(val); // Mengisi atribut fakultas dari objek Mahasiswa
         list.ganti(mhs); // Mengganti data mahasiswa dengan NIM yang sama pada objek Crud
       }else if(sign.equals("hapus")){
-        System.out.println("Masukkan nim yang ingin data mahasiswa dihapus");
+        // System.out.println("Masukkan nim yang ingin data mahasiswa dihapus");
         Mahasiswa mhs = new Mahasiswa(); // Membuat objek Mahasiswa
         String val = sc.next();
         mhs.setNim(val); // Mengisi atribut NIM dari objek Mahasiswa
         list.hapus(mhs); // Menghapus data mahasiswa dengan NIM yang sama pada objek Crud
       }
-      System.out.println("Masukkan perintah: ");
+      System.out.println("\nMasukkan perintah: ");
       sign = sc.next(); // Menerima input perintah dari pengguna
     }
     sc.close();

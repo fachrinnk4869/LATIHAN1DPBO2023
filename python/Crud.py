@@ -33,11 +33,13 @@ class Crud:
 
   def tampil(self):
     # method untuk menampilkan seluruh objek Mahasiswa pada list __list beserta atribut-atributnya
+    # print("keren")
     for i in range(len(self.__list)): # loop sebanyak panjang dari list __list
       print(
-      i + 1 # nomor ur
+      str(i + 1) # nomor ur
       , " " , self.__list[i].getNim()
       , " " , self.__list[i].getNama()
       , " " , self.__list[i].getProdi()
       , " " , self.__list[i].getFakultas()
       )
+      # print()
