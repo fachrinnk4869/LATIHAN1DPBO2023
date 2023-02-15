@@ -1,0 +1,19 @@
+table, th, td {
+  border: 1px solid black;
+  /* padding: 5px; */
+  border-collapse: collapse;
+}
+
+th, td{
+  padding: 5px;
+}
+
+img{
+  height: 100px;
+  width: auto;
+  /* width: 300px; */
+}
+p{
+  font-size: large;
+  font-weight: bold;
+}
